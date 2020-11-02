@@ -13,6 +13,10 @@
     "cli",
     "favicon"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "git://github.com/fuadop/manifesticons-cli.git",
   "author": "Fuad Olatunji <fuadolatunji@gmail.com>",
   "license": "ISC",
   "dependencies": {
@@ -23,7 +27,7 @@
     "progress": "^2.0.3",
     "sharp": "^0.26.2",
     "shelljs": "^0.8.4"
-  }, 
+  },
   "bin": {
     "generate-icons": "./bin/generate.js"
   }
